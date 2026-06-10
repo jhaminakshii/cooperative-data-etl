@@ -1,0 +1,27 @@
+============================================================
+COOPERATIVE DATA MIGRATION - RECONCILIATION REPORT
+============================================================
+
+1) ROW COUNTS (source -> loaded, with rejections)
+------------------------------------------------------------
+Members : source  13 -> loaded  11  (removed 2 duplicate)
+Savings : source  10 -> loaded   8  (removed 1 orphan, 1 negative)
+Loans   : source   7 -> loaded   5  (removed 1 orphan, 1 negative)
+
+2) SAVINGS BALANCE BY TYPE
+------------------------------------------------------------
+Fixed        :   3 account(s)  total balance =      165,000
+Recurring    :   2 account(s)  total balance =       17,500
+Regular      :   3 account(s)  total balance =       49,000
+TOTAL        :   8 account(s)  total balance =      231,500
+
+3) LOAN OUTSTANDING BY TYPE
+------------------------------------------------------------
+Agriculture  :   3 loan(s)     total outstanding =      220,000
+Business     :   1 loan(s)     total outstanding =      120,000
+Personal     :   1 loan(s)     total outstanding =       25,000
+TOTAL        :   5 loan(s)     total outstanding =      365,000
+
+============================================================
+Report generated successfully. Migration ready for sign-off.
+============================================================
